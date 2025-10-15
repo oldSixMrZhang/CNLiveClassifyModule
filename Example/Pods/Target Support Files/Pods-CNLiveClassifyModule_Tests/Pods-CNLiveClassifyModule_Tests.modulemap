@@ -1,0 +1,6 @@
+framework module Pods_CNLiveClassifyModule_Tests {
+  umbrella header "Pods-CNLiveClassifyModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

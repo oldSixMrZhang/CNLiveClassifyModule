@@ -1,0 +1,42 @@
+PODS:
+  - CNLiveBaseKit (0.1.12):
+    - MJExtension
+  - CNLiveClassifyModule (0.0.2):
+    - CNLiveBaseKit
+    - CNLiveClassifyModule/JXCategoryView (= 0.0.2)
+    - CNLiveCommonCategory
+  - CNLiveClassifyModule/JXCategoryView (0.0.2):
+    - CNLiveBaseKit
+    - CNLiveCommonCategory
+  - CNLiveCommonCategory (0.3.8):
+    - SDWebImage (~> 4.4.6)
+  - MJExtension (3.0.17)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+
+DEPENDENCIES:
+  - CNLiveClassifyModule (from `../`)
+
+SPEC REPOS:
+  http://bj.gitlab.cnlive.com/ios-team/CNLiveRepos.git:
+    - CNLiveBaseKit
+    - CNLiveCommonCategory
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CNLiveClassifyModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNLiveBaseKit: a580d2d4749f242718ef7a603147e363a794f431
+  CNLiveClassifyModule: bbd9f7f209492b9562f44f33d8b5768744488a27
+  CNLiveCommonCategory: 8d1e8649f9f994844cfe870be6aadc7454b25d50
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+
+PODFILE CHECKSUM: 548e2a0968aef70708df3a0a6500ee1741a8a72c
+
+COCOAPODS: 1.5.3

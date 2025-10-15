@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://bj.gitlab.cnlive.com/ios-team/CNLiveRepos.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNLiveClassifyModule_Example' do
+  pod 'CNLiveClassifyModule', :path => '../'
+  
+#  pod 'CNLiveCommonCategory'
+
+  target 'CNLiveClassifyModule_Tests' do
+    inherit! :search_paths
+    
+#    pod 'CNLiveCommonCategory'
+
+    
+  end
+end

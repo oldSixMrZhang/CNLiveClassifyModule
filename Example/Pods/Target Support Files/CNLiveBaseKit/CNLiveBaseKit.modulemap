@@ -1,0 +1,6 @@
+framework module CNLiveBaseKit {
+  umbrella header "CNLiveBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

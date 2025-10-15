@@ -1,0 +1,44 @@
+{
+  "name": "CNLiveClassifyModule",
+  "version": "0.0.2",
+  "summary": "分类模块组件.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://bj.gitlab.cnlive.com/ios-team/CNLiveClassifyModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cnliveJunBo": "wangjunbo@cnlive.com"
+  },
+  "source": {
+    "git": "http://bj.gitlab.cnlive.com/ios-team/CNLiveClassifyModule.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CNLiveClassifyModule/Classes/**/*.{h,m}",
+  "dependencies": {
+    "CNLiveCommonCategory": [
+
+    ],
+    "CNLiveBaseKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "JXCategoryView",
+      "source_files": "CNLiveClassifyModule/Classes/**/*.{h,m}",
+      "dependencies": {
+        "CNLiveCommonCategory": [
+
+        ],
+        "CNLiveBaseKit": [
+
+        ]
+      }
+    }
+  ]
+}

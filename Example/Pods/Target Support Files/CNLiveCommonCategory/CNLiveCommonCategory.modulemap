@@ -1,0 +1,6 @@
+framework module CNLiveCommonCategory {
+  umbrella header "CNLiveCommonCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CNLiveClassifyModule {
+  umbrella header "CNLiveClassifyModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
